@@ -1,20 +1,16 @@
 # task-gantt
 
-## Build Setup
+> :alembic: Experimenting with Nuxt.js
 
-```bash
-# install dependencies
-$ npm install
+## :factory: Local run
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+```sh
+npm run dev
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## :memo: Information
+
+- [BootstrapVue](https://bootstrap-vue.org/)
+- [Gantt chart](https://frappe.io/gantt)
