@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <h1>
-      task-gantt
-    </h1>
     <!-- Raw object for debugging -->
     <!-- {{ items }} -->
     <div>
@@ -83,27 +80,4 @@ export default Vue.extend({
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.container > * {
-  max-width: 100%;
-  flex-basis: 100%;
-  margin: 20px auto;
-}
-
-h1 {
-  display: block;
-  flex-basis: 100%;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 </style>

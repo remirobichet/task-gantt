@@ -17,3 +17,21 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+.nuxt-link-exact-active {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > * {
+  max-width: 100%;
+  flex-basis: 100%;
+  margin: 20px auto;
+}
