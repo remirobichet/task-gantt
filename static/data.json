@@ -1,5 +1,26 @@
 [
-  { "age": 32, "first_name": "Cyndi" },
-  { "age": 27, "first_name": "Havij" },
-  { "age": 47, "first_name": "Robert" }
+  {
+    "id": "Task 1",
+    "name": "Redesign website",
+    "start": "2020-10-1",
+    "end": "2020-10-25",
+    "progress": 30,
+    "dependencies": ""
+  },
+  {
+    "id": "Task 2",
+    "name": "Build website",
+    "start": "2020-10-5",
+    "end": "2020-10-20",
+    "progress": 10,
+    "dependencies": "Task 1"
+  },
+  {
+    "id": "Task 3",
+    "name": "Deliver website",
+    "start": "2020-10-21",
+    "end": "2020-10-25",
+    "progress": 0,
+    "dependencies": "Task 2"
+  }
 ]
